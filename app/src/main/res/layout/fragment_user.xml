@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/user_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="22dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/web"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView1"
+        android:textSize="15sp"
+        android:textColor="@color/purple_500"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView2"
+        android:textSize="15sp"
+        android:textColor="@color/purple_500"/>
+
+    <EditText
+        android:id="@+id/web1ET"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/web_ET1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#AD7EE8"
+            android:text="@string/button1"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/websBT1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#AD7EE8"
+            android:text="@string/button2"
+            android:textColor="@color/white"
+            android:onClick="openFragment1"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/web2ET"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/web_ET2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#AD7EE8"
+            android:text="@string/button1"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/websBT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#AD7EE8"
+            android:text="@string/button2"
+            android:textColor="@color/white"
+            android:onClick="openFragment2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

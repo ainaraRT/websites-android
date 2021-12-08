@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Páginas web</string>
+    <string name="textView1">Cuando pongas la url, pulsa primero el botón CARGAR URL y después a CONFIRMAR</string>
+    <string name="textView2">No hace falta que pongas: https://</string>
+    <string name="web_ET1">Introduce un sitio web</string>
+    <string name="web_ET2">Introduce otro sitio web</string>
+    <string name="button1">Cargar url</string>
+    <string name="button2">Confirmar</string>
+    <string name="first_screen">Primer sitio web</string>
+    <string name="second_screen">Segundo sitio web</string>
+    <string name="third_screen">Introducir sitios web</string>
+    <string name="snackbar_nothing">Introduce sitios web</string>
+    <string name="snackbar_nothing_action">CERRAR</string>
+    <string-array name="pantallas">
+        <item>Primer sitio web</item>
+        <item>Segundo sitio web</item>
+        <item>Introducir sitios web</item>
+    </string-array>
+</resources>

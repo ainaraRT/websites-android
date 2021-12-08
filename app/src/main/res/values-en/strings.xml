@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Websites</string>
+    <string name="textView1">When you put the url, first press the button LOAD URL and then CONFIRM</string>
+    <string name="textView2">You do not have to put: https://</string>
+    <string name="web_ET1">Enter a website</string>
+    <string name="web_ET2">Enter another website</string>
+    <string name="button1">Load url</string>
+    <string name="button2">Confirm</string>
+    <string name="first_screen">First Website</string>
+    <string name="second_screen">Second Website</string>
+    <string name="third_screen">Enter websites</string>
+    <string name="snackbar_nothing">Enter websites</string>
+    <string name="snackbar_nothing_action">CLOSE</string>
+    <string-array name="pantallas">
+        <item>First Website</item>
+        <item>Second Website</item>
+        <item>Enter websites</item>
+    </string-array>
+</resources>
